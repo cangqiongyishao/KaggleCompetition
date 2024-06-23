@@ -11,3 +11,5 @@ if tf.config.experimental.list_physical_devices('GPU'):
     print("GPU is available and will be used by TensorFlow.")
 else:
     print("GPU is not available. TensorFlow will use the CPU.")
+
+print('Done')
